@@ -3,7 +3,7 @@
 
   tasks:
     - name: Install Java 8 update 5
-      mac_pkg: pkg_name=com.oracle.jdk7u51 pkg_version=1.1
+      mac_pkg: pkg_name=com.oracle.jdk8u5 pkg_version=1.1
                url=http://download.oracle.com/otn-pub/java/jdk/8u5-b13/jre-8u5-macosx-x64.dmg
                curl_opts="-L --cookie oraclelicense=accept-securebackup-cookie"
                archive_type=dmg archive_path='JDK 8 Update 5.pkg'
